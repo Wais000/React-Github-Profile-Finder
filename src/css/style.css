@@ -26,11 +26,13 @@ input{
 }
 form{
     margin-top: 20px 0;
+    margin-bottom: 10px;
 }
 .user{
-    width: 80%;
+    width: 60%;
     border: 5px solid black;
     padding: 15px;
+    border-radius: 10px;
     box-shadow:  5px 5px 5px rgb(rgba(255, 0, 0, 0.103), rgba(0, 128, 0, 0.11), rgba(0, 0, 255, 0.11)(0, 0, 255, 0));
 }
 table{
@@ -41,4 +43,10 @@ td{width: 50%;
     padding: 5px;
     border: 1px solid black;
 
+}
+.image{display: flex;
+justify-content: center;
+align-items: center;}
+.image img{
+    border-radius: 50%;
 }
