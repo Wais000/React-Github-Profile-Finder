@@ -6,13 +6,13 @@
 
 .App{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100vw;
     height: 100vw;
     border: 5px solid darkblue;
     background-color: lightgreen;
+    
 }
 .Header-container{
     display: flex;
@@ -23,6 +23,8 @@
 input{
     font-size: 20px;
     padding: 5px;
+    border-radius: 4px ;
+    margin-right:2px;
 }
 form{
     margin-top: 20px 0;
@@ -30,23 +32,32 @@ form{
 }
 .user{
     width: 60%;
-    border: 5px solid black;
+    border: 5px solid rgba(255, 255, 255, 0.486);
     padding: 15px;
     border-radius: 10px;
-    box-shadow:  5px 5px 5px rgb(rgba(255, 0, 0, 0.103), rgba(0, 128, 0, 0.11), rgba(0, 0, 255, 0.11)(0, 0, 255, 0));
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
 }
 table{
     width: 100%;
-}
-td{width: 50%;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid black;
+
 
 }
+td{width: 50%;
+    padding: 9px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.63);
+border-radius: 5px;  
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
 .image{display: flex;
 justify-content: center;
 align-items: center;}
+
+
 .image img{
     border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.315);
+    margin-bottom: 10px;
 }
