@@ -8,8 +8,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+
     border: 5px solid darkblue;
     background-color: lightgreen;
     
